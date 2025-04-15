@@ -1,0 +1,94 @@
+/* reset.css */
+@import url('https://fonts.cdnfonts.com/css/nanumsquare-neo');
+@import url('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+
+html {
+    font-size: 62.5%;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+/* HTML5 요소들을 블록 레벨 요소로 설정 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* 기본 폰트 스타일 설정 */
+body {
+    line-height: 1;
+    font-family: 'NanumSquare Neo', sans-serif;
+}
+
+/* 리스트 스타일 제거 */
+ol,
+ul {
+    list-style: none;
+}
+
+/* 링크 스타일 초기화 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 테이블 스타일 초기화 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 이미지와 비디오 요소의 최대 너비 설정 */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 버튼과 입력 요소의 스타일 초기화 */
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* 버튼과 입력 요소의 포커스 스타일 초기화 */
+button:focus,
+input:focus,
+optgroup:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* 인용문 스타일 초기화 */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
